@@ -1,0 +1,11 @@
+node_modules/
+.DS_Store
+*.log
+out/*.mp4
+out/*.gif
+out/*.png
+
+# The display face is a licensed commercial typeface and is NOT redistributed
+# with this repo. Drop the file in yourself - see public/fonts/README.md.
+public/fonts/*
+!public/fonts/README.md

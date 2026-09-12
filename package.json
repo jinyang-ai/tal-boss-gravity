@@ -1,0 +1,26 @@
+{
+  "name": "tal-boss-gravity",
+  "version": "1.0.0",
+  "description": "tal BOSS - Gravity. The coolest people in Bangalore, falling into the mark.",
+  "private": true,
+  "scripts": {
+    "dev": "remotion studio",
+    "compositions": "remotion compositions",
+    "render": "bash scripts/render.sh",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.469",
+    "@remotion/fonts": "^4.0.499",
+    "@remotion/google-fonts": "^4.0.469",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "remotion": "^4.0.469"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
+    "@types/web": "^0.0.349",
+    "typescript": "^6.0.3"
+  }
+}
